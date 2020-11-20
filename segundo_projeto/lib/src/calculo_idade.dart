@@ -1,4 +1,4 @@
-main() {
+void calculo_idade() {
   int numero1 = 2;
   double numero2 = 70.0;
 
