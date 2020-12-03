@@ -1,6 +1,6 @@
 # Dart
 
-# Links que podem ajudar:
+## Links que podem ajudar:
 
 ### [https://pt.wikipedia.org/wiki/Dart_(linguagem_de_programação)](https://pt.wikipedia.org/wiki/Dart_(linguagem_de_programa%C3%A7%C3%A3o))
 
@@ -8,13 +8,13 @@
 
 ### [https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368](https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368)
 
-# Sobre o Dart
+## Sobre o Dart
 
 ### Dart é uma linguagem de script criada pela Google em 10 a 11 de outrubro de 2011. Inicialmente foi desenvolvida para a web mas que possui frameworks que aumentam a sua utilidade para outras áreas. Além disso, por ser orientada a objeto, é fortemente baseada nas classes, o conceito fundamental da programação orientada a objetos, e que você pode ou não declarar o tipo da sua variável.
 
 ### Têm a tipagem como opcional, pois seu interpretador tenta reconhecer as tipagens por si só.
 
-# Qual o meu intuito com Dart:
+## Qual o meu intuito com Dart:
 
 ### Aprender os conceitos básicos do Dart para migrar para o Flutter e aprender a desenvolver aplicativos.
 
@@ -22,7 +22,7 @@
 
 ### Usar o Dart com tipagem para práticar.
 
-# Conceitos básicos do Dart
+## Conceitos básicos do Dart
 
 ### Exemplo de código em Dart:
 
@@ -32,7 +32,7 @@ main() {
 }
 ```
 
-# Variáveis em Dart
+## Variáveis em Dart
 
 ### As variáveis em Dart são as seguintes:
 
@@ -54,7 +54,7 @@ main() {
 - Maps → Explicação abaixo de funções!
 
 
-# Funções
+## Funções
 
 ### Funções em Dart pode ser criada de dois modos, a funcão que não retorna um valor declarada com um void antes do seu nome, e as que que retornam um valor declaradas com o seu tipo de retorno antes do se nome.
 
@@ -93,7 +93,7 @@ int soma(int a, int b) {
 
 ### Assim como visto nos exemplos acima é possivel passar parametros em qualquer tipo de função e também especificar o tipo dela.
 
-# Parâmetro Opicional Posicional
+## Parâmetro Opicional Posicional
 
 ### Para definir parâmetros opcionais posicionais, devemos agrupar esses parâmetros entre colchetes.
 
@@ -113,7 +113,7 @@ exibirNomeECargo("Caio", "Desenvolvedor"); // Nome: Caio ; Cargo: Desenvolvedor
 exibirNomeECargo("Caio"); // Nome: Caio ; Cargo: Desconhecido
 ```
 
-# Map
+## Map
 
 ### As variáveis de tipo Map são um tipo de array personalizado, muito parecida com o JSON. Essas variáveis diferente das demais recebe duas coisas em seu tipo, a primeira coisa é um tipo String referênciando a chave que você criará e a segunda é ou uma variável especifica ou uma dinâmica.
 
@@ -128,7 +128,7 @@ Map<String, dynamic> dados_usuario = {
 };
 ```
 
-# List ou Array de Map
+## List ou Array de Map
 
 ```dart
 List<Map<String, dynamic>> dados_usuario = [
@@ -139,17 +139,17 @@ List<Map<String, dynamic>> dados_usuario = [
 ];
 ```
 
-# Programação Orientada a Objeto
+## Programação Orientada a Objeto
 
 ### É um jeito de trazer a programação mais parecida com oque temos na vida real, nesse paradigma se explora bastante o conceito de classes e heranças.
 
 ## Construtores
 
-## É uma maneira de definirmo coisa padrões ou que aconteceram antes de todo o código. Usada bastante para iniciar variáveis ou funções padrões.
+### É uma maneira de definirmo coisa padrões ou que aconteceram antes de todo o código. Usada bastante para iniciar variáveis ou funções padrões.
 
 ## Exemplos de construtores:
 
-Construtor com parâmetros inteligentes:
+### Construtor com parâmetros inteligentes:
 
 ```dart
 import 'src/pessoa.dart';
@@ -176,7 +176,7 @@ class Pessoa {
 }
 ```
 
-Construtores inteligentes:
+### Construtores inteligentes:
 
 ```dart
 import 'src/pessoa.dart';
