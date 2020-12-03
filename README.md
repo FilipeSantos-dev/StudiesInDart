@@ -42,8 +42,22 @@ main() {
 - dynamic →Usado quando não queremos especificar um tipo para a variável, podendo receber tipos diferentes mesmo em tempo de execução.
 - List →Usado quando não queremos especificar um tipo para a variável, podendo receber tipos diferentes mesmo em tempo de execução.
 - dynamic → Usado quando não queremos dar um tipo especifico a uma variável.
-- Maps → Explicação abaixo de funções!
+- Maps → Explicação abaixo de funções!- Númericas
+    - int → Usada para receber valores inteiros positivos ou negativos.
+    - double → Usada para receber valores com um ponto flutuante como decimais.
+    - num → Aceita tanto valores do tipo int quanto double aumentando ainda mais a sua capacidade.
 
+- String → Usado para armazenar textos ou caracteres.
+- bool →Variável de controle
+    - true → Usado para dizer que algo é verdadeiro.guy
+    - false → Usado para dizer que algo é falso.
+
+- dynamic →Usado quando não queremos especificar um tipo para a variável, podendo receber tipos diferentes mesmo em tempo de execução.
+- List →Usado quando não queremos especificar um tipo para a variável, podendo receber tipos diferentes mesmo em tempo de execução.
+    - Exemplo de como colocar um tipo na list → List<tipo> como List<String>
+
+- dynamic → Usado quando não queremos dar um tipo especifico a uma variável.
+- Maps → Explicação abaixo de funções!
 # Funções
 
 ### Funções em Dart pode ser criada de dois modos, a funcão que não retorna um valor declarada com um void antes do seu nome, e as que que retornam um valor declaradas com o seu tipo de retorno antes do se nome.
